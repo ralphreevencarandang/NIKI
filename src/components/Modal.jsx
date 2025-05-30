@@ -28,7 +28,7 @@ const Modal = ()=>{
                             You gave it your all<br />
                             Just with everything you took from me</p>
 
-                            <p className="text-center font-inter font-bold">Autumn - NIKI</p>
+                            <p className="text-center font-inter font-bold text-white">Autumn - NIKI</p>
 
                         </div>
                     </div>
