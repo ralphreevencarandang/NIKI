@@ -7,7 +7,7 @@ const Modal = ()=>{
                     <IoIosInformationCircleOutline size={30}/>More Info
                 </button>
                     <dialog id="my_modal_3" className="modal ">
-                    <div className="modal-box  p-0 bg-base-100" >
+                    <div className="modal-box p-0 bg-[#1D232A]" >
                         <form method="dialog">
                         {/* if there is a button in form, it will close the modal */}
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2  bg-gray-700 text-white">✕</button>
