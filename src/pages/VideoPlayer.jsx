@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const VideoPlayer = ()=>{
     return(
-        <div className="h-screen">
+        <div className="h-screen bg-[#1D232A]">
             <div className="padding-x ">
                 <Link to='/' className=" text-white absolute cursor-pointer py-5 z-10"><FaArrowLeft size={30} /></Link>
 
