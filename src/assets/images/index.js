@@ -101,16 +101,64 @@ export const sliderImages = [
         imageUrl: niki4
     },
     {
-        imageUrl: niki5
-    },
-    {
-        imageUrl: niki6
-    },
-    {
         imageUrl: niki7
     },
     {
         imageUrl: niki8
+    },
+    {
+        imageUrl: niki13
+    },
+    {
+        imageUrl: niki15
+    },
+    {
+        imageUrl: niki16
+    },
+    {
+        imageUrl: niki26
+    },
+    {
+        imageUrl: niki30
+    },
+    {
+        imageUrl: niki31
+    },
+    {
+        imageUrl: niki32
+    },
+    {
+        imageUrl: niki33
+    },
+    {
+        imageUrl: niki34
+    },
+    {
+        imageUrl: niki35
+    },
+    {
+        imageUrl: niki36
+    },
+    {
+        imageUrl: niki37
+    },
+ 
+    {
+        imageUrl: niki38
+    },
+ 
+    {
+        imageUrl: niki40
+    },
+ 
+]
+
+export const  browseImages = [
+      {
+        imageUrl: niki5
+    },
+    {
+        imageUrl: niki6
     },
     {
         imageUrl: niki9
@@ -118,5 +166,52 @@ export const sliderImages = [
     {
         imageUrl: niki10
     },
- 
-]
+    {
+        imageUrl: niki11
+    },
+    {
+        imageUrl: niki12
+    },
+    {
+        imageUrl: niki14
+    },
+    {
+        imageUrl: niki17
+    },
+    {
+        imageUrl: niki18
+    },
+    {
+        imageUrl: niki19
+    },
+    {
+        imageUrl: niki20
+    },
+    {
+        imageUrl: niki21
+    },
+    {
+        imageUrl: niki22
+    },
+    {
+        imageUrl: niki23
+    },
+    {
+        imageUrl: niki24
+    },
+    {
+        imageUrl: niki25
+    },
+    {
+        imageUrl: niki27
+    },
+    {
+        imageUrl: niki28
+    },
+    {
+        imageUrl: niki29
+    },
+    {
+        imageUrl: niki39
+    },
+];
