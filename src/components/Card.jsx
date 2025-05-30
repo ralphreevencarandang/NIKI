@@ -26,6 +26,7 @@ const Card = ({imgUrl })=>{
             scale:1.05,
         }}
         
+        
         >
             <img src={imgUrl}  alt="Card Image" className="w-full h-full rounded-lg cursor-pointer hover:shadow-lg shadow-red-500" />
         </motion.div>
