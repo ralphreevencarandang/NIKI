@@ -39,6 +39,11 @@ import niki37 from '../images/niki37.jpg';
 import niki38 from '../images/niki38.jpg';
 import niki39 from '../images/niki39.jpg';
 import niki40 from '../images/niki40.jpg';
+import niki41 from '../images/niki41.jpg';
+import niki42 from '../images/niki42.jpg';
+import niki43 from '../images/niki43.jpg';
+import niki44 from '../images/niki44.jpg';
+import niki45 from '../images/niki45.jpg';
 import nikibg from '../images/nikibg.jpg';
 
 
@@ -213,5 +218,20 @@ export const  browseImages = [
     },
     {
         imageUrl: niki39
+    },
+    {
+        imageUrl: niki41
+    },
+    {
+        imageUrl: niki42
+    },
+    {
+        imageUrl: niki43
+    },
+    {
+        imageUrl: niki44
+    },
+    {
+        imageUrl: niki45
     },
 ];

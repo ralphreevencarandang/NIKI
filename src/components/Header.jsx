@@ -2,6 +2,7 @@ import Button from "./Button";
 import { FaPlay } from "react-icons/fa";
 import { IoIosInformationCircleOutline } from "react-icons/io";
 import { motion } from "motion/react";
+import Modal from './Modal'
 const Header = ()=>{
 
     return(
@@ -40,7 +41,8 @@ const Header = ()=>{
                 <div className="flex gap-3"
                 >
                     <Button label='Play' textColor="text-black" icon={<FaPlay/>}/>
-                    <Button label='More Info' background="bg-gray-500" icon={<IoIosInformationCircleOutline size={30}/>}/>
+                   
+                    <Modal/>
                 </div>
 
             </motion.div>

@@ -1,18 +1,21 @@
 import { nikiLogo } from "../assets/images";
-import { Link } from "react-router";
+
+import { NavLink } from "react-router";
 const Navbar = ()=>{
 
-    
+    const linkClass = ({isActive})=>{
+        return isActive ? 'font-bold text-sm text-white font-inter  hover:text-stone-500 transition ease-in duration-300' : 'text-sm text-white font-inter  hover:text-stone-500 transition ease-in duration-300'
+    }
 
     return(
         <nav className="bg-[#0c0c0c]">
             <div className="padding-x max-container py-3 flex gap-10 items-center justify-between">
-                <Link to='/'>
+                <NavLink to='/'>
                     <img src={nikiLogo} alt="" width={60} className="object-contain cursor-p"/>
-                </Link>
+                </NavLink>
                 <div className="flex gap-5">
-                    <Link to='/' className="text-white font-martel-sans text-sm hover:text-stone-500 transition ease-in duration-300">Home</Link>
-                    <Link to='/browse' className="text-white font-martel-sans text-sm hover:text-stone-500 transition ease-in duration-300">Browse</Link>
+                    <NavLink to='/' className={linkClass}>Home</NavLink>
+                    <NavLink to='/browse' className={linkClass}>Browse</NavLink>
                 </div>
             </div>
        
