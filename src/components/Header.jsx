@@ -1,8 +1,8 @@
 import Button from "./Button";
 import { FaPlay } from "react-icons/fa";
-import { IoIosInformationCircleOutline } from "react-icons/io";
 import { motion } from "motion/react";
-import Modal from './Modal'
+import Modal from './Modal';
+import { Link } from "react-router";
 const Header = ()=>{
 
     return(
@@ -40,8 +40,7 @@ const Header = ()=>{
               
                 <div className="flex gap-3"
                 >
-                    <Button label='Play' textColor="text-black" icon={<FaPlay/>}/>
-                   
+                    <Link to='/video' className="text-black sm:px-6 px-4 sm:text-lg py-2 rounded font-sans font-semibold flex items-center justify-center gap-2  bg-white cursor-pointer hover:bg-gray-400 transition duration-200 ease-in"><FaPlay/> Play</Link>
                     <Modal/>
                 </div>
 
